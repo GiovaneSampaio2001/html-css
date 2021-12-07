@@ -52,13 +52,26 @@ section.normal{
     color: black;
 }
 
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+}
+
 section.imagem{
     background-color: black;
     color: white;
+    box-shadow:inset 6px 6px 6px rgba(0, 0, 0, 514);
+    background-attachment: fixed;
 }
 
 .imagem > p{
-    background-color: rgb(48, 48, 48);
+    background-color: rgba(48, 48, 48, 0.575);
     display: inline-block;
     padding: 10px;
 }
